@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'FCUUID/*.{h,m}'
   spec.framework    = 'Foundation', 'UIKit', 'Security'
   spec.requires_arc = true
-  spec.dependency 'UICKeyChainStore', '~> 2.1.0'
+  spec.dependency 'UICKeyChainStore', '~> 2.2.1'
 
   spec.ios.deployment_target = '5.0'
   spec.tvos.deployment_target = '9.0'
